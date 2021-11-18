@@ -1,0 +1,29 @@
+{
+  "name": "rabbitmq-ext",
+  "version": "0.1.0",
+  "description": "rabbitmq",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.2",
+    "tslint": "5.10.0",
+    "typescript": "^3.3.3333"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/core-ts/rabbitmq"
+  },
+  "keywords": [
+    "rabbitmq"
+  ]
+}

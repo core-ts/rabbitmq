@@ -8,11 +8,9 @@
     "build:lib": "tsc",
     "clean:lib": "rimraf lib"
   },
-  "dependencies": {
-    "amqplib": "^0.8.0"
-  },
   "devDependencies": {
     "@types/amqplib": "^0.8.2",
+    "amqplib": "^0.8.0",
     "tslint": "5.10.0",
     "typescript": "^3.3.3333"
   },
